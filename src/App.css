@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+  font-family: 'Red Hat Display', sans-serif;
+  min-height: 100vh;
+}
+
+
+.hero {
+  background-image: 
+    url('/assets/desktop/image-hero-left.png'),
+    url('/assets/desktop/image-hero-right.png');
+  background-repeat: no-repeat;
+  background-size: 53%;
+  background-position: top;
+  background-position-x: 
+    -20px,
+    195px;
+  background-position-y: 54px;
+  min-height: 100vh;
+}
+
+
+.footer_content {
+  @apply relative;
+  background-image: url('/assets/mobile/image-footer.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.footer_content::before {
+  @apply bg-cyan-600;
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.9;
+  z-index: 1;
+
+}
+
+.main_container > :nth-child(3) {
+  gap: 1px;
+}
+
+@media (min-width: 412px){
+  .hero {
+    background-position: 
+      left top,
+      right top;
+    background-position-y: 54px;
+    background-size: 38% auto;
+    min-height: 100vh;
+  }
+}
+
+@media (min-width: 768px){
+  .hero {
+    background-image: 
+      url('/assets/desktop/image-hero-left.png'),
+      url('/assets/desktop/image-hero-right.png');
+    background-repeat: no-repeat;
+    background-size: 51%;
+    background-position: top;
+    background-position-x: 
+      -24px,
+      400px;
+    background-position-y: 64px;
+    min-height: 100vh;
+  }
+
+  .footer_content {
+    @apply relative;
+    background-image: url('/assets/tablet/image-footer.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+}
+
+@media (min-width: 820px){
+  .hero {
+    background-position: 
+      left top,
+      right top;
+    background-position-y: 54px;
+    background-size: 38% auto;
+    min-height: 100vh;
+  }
+}
+
+@media (min-width: 1280px){
+  .hero {
+    background-image: 
+      url('/assets/desktop/image-hero-left.png'),
+      url('/assets/desktop/image-hero-right.png');
+    background-repeat: no-repeat;
+    background-size: 27%;
+    background-position: top;
+    background-position-x: 
+      -29px,
+      1079px;
+    background-position-y: 
+      61px,
+      116px;
+    min-height: 100vh;
+  }
+
+  .footer_content {
+    @apply relative;
+    background-image: url('/assets/desktop/image-footer.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+}
+
+@media (min-width: 1280px) and (max-width: 1368px) {
+  .hero {
+    background-position: 
+      left top,
+      right top;
+    background-position-y: 54px;
+    background-size: 25% auto;
+    min-height: 100vh;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+
+}
