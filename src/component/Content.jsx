@@ -29,9 +29,9 @@ const Content = () => {
           </div>
           <div className="text-content_container flex flex-col justify-center items-center gap-32">
             <div className="title flex flex-col justify-center items-center gap-23 md:gap-17 xl:gap-15">
-              <h3 className="text-cyan-600 font-black leading-180 tracking-4 uppercase md:text-15 md:flex md:items-start md:tracking-[4.5px] xl:mt-30 xl:text-16">
+              <h2 className="text-cyan-600 font-black leading-180 tracking-4 uppercase md:text-15 md:flex md:items-start md:tracking-[4.5px] xl:mt-30 xl:text-16">
                 Built for modern use
-              </h3>
+              </h2>
               <h2 className="text-32 text-slate-900 leading-110 font-black text-center md:text-38 md:w-430 md:tracking-wide xl:text-40 xl:w-450 xl:tracking-normal">
                 Smarter meetings, all in one place
               </h2>
