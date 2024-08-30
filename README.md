@@ -45,8 +45,8 @@ Mobile
 
 ### Links
 
-- Solution URL: [](https://your-solution-url.com)
-- Live Site URL: [](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/meet-landing-page-react-tailwind-thOa9hFWs0](https://your-solution-url.com)
+- Live Site URL: [https://waquintero-ia.github.io/meetLanding/](https://your-live-site-url.com)
 
 ## Author
 
