@@ -13,12 +13,12 @@ const Hero = () => {
             </p>
           </div>
           <div className="content_buttons flex flex-col justify-center items-center gap-4 md:flex-row">
-            <a className="w-193 h-58 flex justify-center items-center font-black bg-cyan-600 rounded-[29px] hover:bg-cyan-600-2 focus:bg-cyan-600-2 active:bg-cyan-600-2" role="button" href="#">
+            <a className="w-193 h-58 flex justify-center items-center font-black bg-cyan-600 rounded-[29px] hover:bg-cyan-600-2 focus:bg-cyan-600-2 active:bg-cyan-600-2" tabIndex={0} role="button" href="#">
                 <p className="text-white">Download
                   <span className="text-cyan-300"> v1.3</span>
                 </p> 
             </a>
-            <a className="w-139 h-58 flex justify-center items-center font-black bg-purple-600 rounded-[29px] hover:bg-purple-600-2 focus:bg-purple-600-2 active:bg-purple-600-2" role="button" href="#">
+            <a className="w-139 h-58 flex justify-center items-center font-black bg-purple-600 rounded-[29px] hover:bg-purple-600-2 focus:bg-purple-600-2 active:bg-purple-600-2" tabIndex={0} role="button" href="#">
                 <p className="text-white">
                   What is it?
                 </p> 

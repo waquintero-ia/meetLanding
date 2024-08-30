@@ -18,7 +18,7 @@ const Footer = () => {
               Stay connected with reliable HD meetings 
               and unlimited one-on-one and group video sessions.
             </p>
-            <a className="w-193 h-58 flex justify-center items-center font-black bg-purple-600 rounded-[29px] mt-[7px] md:mt-17 xl:mt-0 hover:bg-purple-600-2 focus:bg-purple-600-2 active:bg-purple-600-2" role="button" href="#">
+            <a className="w-193 h-58 flex justify-center items-center font-black bg-purple-600 rounded-[29px] mt-[7px] md:mt-17 xl:mt-0 hover:bg-purple-600-2 focus:bg-purple-600-2 active:bg-purple-600-2" tabIndex={0} role="button" href="#">
                 <p className="text-white">Download
                   <span className="text-purple-300"> v1.3</span>
                 </p> 
